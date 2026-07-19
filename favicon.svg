@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="round-icon"><circle cx="32" cy="32" r="31" /></clipPath>
+  </defs>
+  <image href="/GHAL.png" width="64" height="64" preserveAspectRatio="xMidYMid slice" clip-path="url(#round-icon)" />
+  <circle cx="32" cy="32" r="30.5" fill="none" stroke="#c9a452" stroke-width="1" />
+</svg>
