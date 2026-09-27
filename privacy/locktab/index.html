@@ -66,7 +66,18 @@
         color: var(--gold);
         border: 0;
       }
-      .brand img { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--gold); }
+      .brand img {
+        display: block;
+        flex: 0 0 auto;
+        width: 34px;
+        height: 34px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        border: 1px solid var(--gold);
+        background: #fff;
+      }
       .brand:hover { color: var(--gold-light); }
       .back { margin-left: auto; font-size: 0.85rem; color: var(--text-muted); border: 0; }
       .back:hover { color: var(--gold-light); }
